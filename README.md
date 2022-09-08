@@ -11,3 +11,4 @@ You will need the following things properly installed on your computer.
 
 1. XAMPP
 2. Node
+
