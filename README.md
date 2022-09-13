@@ -2,7 +2,7 @@
 
 ## Overview
 Full stack blog application with following features:
-- Reader can view and read blog posts.
+- Reader can view and read blog posts, filter, sort and search.
 - Any reader is able to register. Registered user is able to add comments and manage own account (change user details & password).
 - Admin role is additionally able to manage blog posts: add new post, edit and delete existing.
 
@@ -20,7 +20,7 @@ Full stack blog application with following features:
 - Semantic HTML5 markup
 
 ## Screenshot 
-[![Screenshot-2022-09-13-173915.png](https://i.postimg.cc/2jLRXdy9/Screenshot-2022-09-13-173915.png)](https://postimg.cc/pyv6mFDK)
+[![Screenshot-2022-09-13-173915.png](https://i.postimg.cc/mDwzxxmR/Screenshot-2022-09-13-173915.png)](https://postimg.cc/jwDdN1Vk)
 
 ## Prerequisites
 1. XAMPP
