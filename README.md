@@ -2,7 +2,7 @@
 
 ## Overview
 Full stack blog application with following features:
-- Reader can view and read blog posts, filter, sort and search.
+- Reader can view and read blog posts, sort them, filter and search.
 - Any reader is able to register. Registered user is able to add comments and manage own account (change user details & password).
 - Admin role is additionally able to manage blog posts: add new post, edit and delete existing.
 
