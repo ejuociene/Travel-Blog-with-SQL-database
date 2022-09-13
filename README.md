@@ -35,7 +35,7 @@ User log-ins for tryout:
 **Registered user:** 
 ```
 user: user@user.lt
-password: user.lt
+password: user123
 ```
 **Admin user:**
 ```
