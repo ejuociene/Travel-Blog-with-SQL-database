@@ -12,3 +12,21 @@ You will need the following things properly installed on your computer.
 1. XAMPP
 2. Node
 
+<<<<<<< HEAD
+=======
+# Running the app:
+SQL database added to folder `database`
+
+User log-ins for tryout:
+
+**Registered user:** 
+```
+user: asta@asta.lt
+password: asta123
+```
+**Admin user:**
+```
+user: jonas@jonas.lt  
+password: jonas
+```
+>>>>>>> 282ac5c55750aab5475c0d61fb032e3218ab4f88
