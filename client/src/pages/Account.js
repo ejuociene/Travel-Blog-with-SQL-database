@@ -33,7 +33,7 @@ const Account = () => {
 			});
 	};
 	return (
-		<div className="container">
+		<main className="container">
 			{message && <h4 className="message">{message}</h4>}
 			<div className="user-container">
 				<h1 className="title">User info:</h1>
@@ -59,7 +59,7 @@ const Account = () => {
 			<button onClick={() => logout()} className="btn center">
 				Logout
 			</button>
-		</div>
+		</main>
 	);
 };
 

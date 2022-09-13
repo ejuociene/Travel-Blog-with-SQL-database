@@ -30,7 +30,7 @@ const Register = () => {
 			});
 	};
 	return (
-		<div className="container">
+		<main className="container">
 			{message && <h4 className="message">{message}</h4>}
 			<h1 className="title">Register</h1>
 			<form className="form" onSubmit={(e) => handleSubmit(e)}>
@@ -80,7 +80,7 @@ const Register = () => {
 			<Link to={'/'} className="link">
 				← Back
 			</Link>
-		</div>
+		</main>
 	);
 };
 

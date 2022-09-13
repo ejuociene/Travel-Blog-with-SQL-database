@@ -57,7 +57,7 @@ const NewPost = () => {
 	};
 
 	return (
-		<div className="container">
+		<main className="container">
 			{message && <h4 className="message">{message}</h4>}
 			<h1 className="title">Add a New Post</h1>
 			<form onSubmit={(e) => handleSubmit(e)} className="form">
@@ -128,7 +128,7 @@ const NewPost = () => {
 			<Link to={'/'} className="link">
 				← Back
 			</Link>
-		</div>
+		</main>
 	);
 };
 

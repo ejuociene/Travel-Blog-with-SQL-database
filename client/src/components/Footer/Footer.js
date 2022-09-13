@@ -10,7 +10,7 @@ import pinterest from '../../images/pinterest.svg';
 
 const Footer = () => {
 	return (
-		<div className="footer">
+		<footer className="footer">
 			<img src={Logo} alt="logo" className="footer-logo" onClick={() => window.scrollTo(0, 0)} />
 			<div className="social-media-container">
 				<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
@@ -30,7 +30,7 @@ const Footer = () => {
 				</a>
 			</div>
 			<div className="footer-text">&#xA9; 2022 Around the World Blog</div>
-		</div>
+		</footer>
 	);
 };
 

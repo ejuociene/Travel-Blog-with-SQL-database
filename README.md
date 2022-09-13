@@ -1,32 +1,40 @@
 # Travel-Blog-with-SQL-database
 
-# Overview
-Sample fullstack blog application: 
+## Overview
+Fullstack blog application with following features:
+- Reader can view and read blog posts.
+- Any reader is able to register. Registered user is able to add comments and manage own account (change user details & password).
+- Admin role is additionally able to manage blog posts: add new post, edit and delete existing.
 
-- registered users are able to view read blog posts, add comments and manage own account; 
-- admin role is able to add, edit and delete blog posts.
+## Built with
+- React.js
+- Node.js: 
+    - express;
+    - express-session;
+    - bcrypt;
+    - joi;
+    - multer;
+    - mysql2;
+    - sequelize
+- SQL database
+- Semantic HTML5 markup
 
-# Prerequisites
-You will need the following things properly installed on your computer.
-
+## Prerequisites
 1. XAMPP
 2. Node
 
-<<<<<<< HEAD
-=======
-# Running the app:
+## Running the app:
 SQL database added to folder `database`
 
 User log-ins for tryout:
 
 **Registered user:** 
 ```
-user: asta@asta.lt
-password: asta123
+user: user@user.lt
+password: user.lt
 ```
 **Admin user:**
 ```
-user: jonas@jonas.lt  
-password: jonas
+user: admin@admin.lt  
+password: admin
 ```
->>>>>>> 282ac5c55750aab5475c0d61fb032e3218ab4f88

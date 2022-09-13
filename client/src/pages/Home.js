@@ -74,7 +74,7 @@ function Home() {
 		[ refresh, searchData, filterData, sortData, categories, page ]
 	);
 	return (<>
-		<div className="post-container">
+		<main className="post-container">
 			{message && <h4 className="message">{message}</h4>}
 			<div className='icons-container'>
 			<form className={search ? 'action-container underline' : "action-container"} onSubmit={(e) => e.preventDefault()}>
@@ -147,7 +147,7 @@ function Home() {
 				{page > 1 && <img src={prevPage} alt="previous" className="page" onClick={() => setPage((prevPage) => prevPage - 1)}/>}
 				{page < (totalPosts/6) && <img src={nextPage} alt="next" className="page" onClick={() => setPage((prevPage) => prevPage + 1)}/>}
 			</div>
-		</div>
+		</main>
 			<Footer/></>
 		
 	);

@@ -7,7 +7,7 @@ import MainContext from '../../MainContext';
 const Header = () => {
 	const {loggedIn, userInfo, setPage} = useContext(MainContext);
 	return (
-	<div>
+	<header>
 		<Link to="/" className='logo' onClick={() => setPage(1)}>
 		<img src={Logo} alt="logo" className='logo'/>
 		</Link>
@@ -51,7 +51,7 @@ const Header = () => {
 			}
 			</ul>
 		</nav>
-	</div>
+	</header>
 	);
 }
 export default Header;

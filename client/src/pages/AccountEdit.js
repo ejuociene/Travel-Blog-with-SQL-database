@@ -45,7 +45,7 @@ const AccountEdit = () => {
 			});
 	};
 	return (
-		<div className="container">
+		<main className="container">
 			{message && <h4 className="message">{message}</h4>}
 			<h1 className="title">Update User Details</h1>
 			<form className="form" onSubmit={(e) => handleSubmit(e)}>
@@ -84,7 +84,7 @@ const AccountEdit = () => {
 			<Link to={'/account'} className="link">
 				← Back
 			</Link>
-		</div>
+		</main>
 	);
 };
 

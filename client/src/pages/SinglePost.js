@@ -72,7 +72,7 @@ const SinglePost = () => {
 			});
 	};
 	return (
-		<div className="container">
+		<main className="container">
 			{message && <h4 className="message">{message}</h4>}
 			{ post && <>
 			<img className="img" src={post.image} alt={post.title} />
@@ -94,7 +94,7 @@ const SinglePost = () => {
 					</Link>
 				</div>
 			)}
-			<p className="text">{post.content}</p>
+			<article className="text">{post.content}</article>
 			<div className="line-break" />
 			<br />
 			{post.comments && (
@@ -138,7 +138,7 @@ const SinglePost = () => {
 			<Link to={'/'} className="link">
 				← To All Posts
 			</Link>
-		</div>
+		</main>
 	);
 };
 

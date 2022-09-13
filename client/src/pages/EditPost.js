@@ -74,7 +74,7 @@ const EditPost = () => {
 		setNewCategory((prevState) => !prevState);
 	};
 	return (
-		<div className="container">
+		<main className="container">
 			{message && <h4 className="message">{message}</h4>}
 			<h1 className="title">Edit Post</h1>
 			<form className="form" onSubmit={(e) => handleSubmit(e)}>
@@ -146,7 +146,7 @@ const EditPost = () => {
 					← Back
 				</Link>
 			</form>
-		</div>
+		</main>
 	);
 };
 

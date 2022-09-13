@@ -45,7 +45,7 @@ const Admin = () => {
 			});
 	};
 	return (
-		<div className="container">
+		<main className="container">
 			{message && <h4 className="message">{message}</h4>}
 			<h2 className="title">Admin panel</h2>
 			<h3>Posts list</h3>
@@ -85,7 +85,7 @@ const Admin = () => {
 					})}
 				</tbody>
 			</table>
-		</div>
+		</main>
 	);
 };
 
