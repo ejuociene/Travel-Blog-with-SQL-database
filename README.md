@@ -20,7 +20,7 @@ Full stack blog application with following features:
 - Semantic HTML5 markup
 
 ## Screenshot 
-[![Screenshot-2022-09-13-173915.png](https://i.postimg.cc/4dCkXrH7/Screenshot-2022-09-13-173915.png)](https://postimg.cc/5Hmk3K3b)
+[![Screenshot-2022-09-13-173915.png](https://i.postimg.cc/2jLRXdy9/Screenshot-2022-09-13-173915.png)](https://postimg.cc/pyv6mFDK)
 
 ## Prerequisites
 1. XAMPP
