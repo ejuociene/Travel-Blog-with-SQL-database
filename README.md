@@ -1,8 +1,8 @@
 # Travel-Blog-with-SQL-database
 
 ## Overview
-Fullstack blog application with following features:
-- Reader can view and read blog posts.
+Full stack blog application with following features:
+- Reader can view and read blog posts, filter, sort and search.
 - Any reader is able to register. Registered user is able to add comments and manage own account (change user details & password).
 - Admin role is additionally able to manage blog posts: add new post, edit and delete existing.
 
@@ -15,9 +15,13 @@ Fullstack blog application with following features:
     - joi;
     - multer;
     - mysql2;
-    - sequelize
+    - sequelize.
 - SQL database
 - Semantic HTML5 markup
+
+## Screenshot 
+
+See a screenshot preview here: [screesnshot](https://github.com/ejuociene/Travel-Blog-with-SQL-database/blob/master/Screenshot%202022-09-13%20173915.png)
 
 ## Prerequisites
 1. XAMPP
