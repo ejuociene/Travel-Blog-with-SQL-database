@@ -20,7 +20,8 @@ Full stack blog application with following features:
 - Semantic HTML5 markup
 
 ## Screenshot 
-[![Screenshot-2022-09-13-173915.png](https://i.postimg.cc/mDwzxxmR/Screenshot-2022-09-13-173915.png)](https://postimg.cc/jwDdN1Vk)
+
+See a screenshot preview here: [screesnshot](https://github.com/ejuociene/Travel-Blog-with-SQL-database/blob/master/Screenshot%202022-09-13%20173915.png)
 
 ## Prerequisites
 1. XAMPP
