@@ -7,7 +7,10 @@ Full stack blog application with following features:
 - Admin role is additionally able to manage blog posts: add new post, edit and delete existing.
 
 ## Built with
-- React.js
+- React.js:
+    - React hooks;
+    - React-router-dom;
+    - axios
 - Node.js: 
     - express;
     - express-session;
